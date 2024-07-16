@@ -55,9 +55,19 @@ const Header = () => {
 							Custom
 						</Link>
 					</li>
+					<li className="py-3">
+						<a
+							href="https://jeifypro.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="bg-white text-primary font-bold text-lg py-2 px-4 rounded"
+						>
+							Chat
+						</a>
+					</li>
 				</ul>
 
-				<ul className="md:flex hidden items-center justify-center space-x-4">
+				{/* <ul className="md:flex hidden items-center justify-center space-x-4">
 					{UserItem.map((item, index) => (
 						<li key={index}>
 							<Link to={item.path}>
@@ -65,7 +75,7 @@ const Header = () => {
 							</Link>
 						</li>
 					))}
-				</ul>
+				</ul> */}
 				{/* Mobile nav */}
 				<ul
 					className={`
